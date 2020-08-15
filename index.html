@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Promises</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+
+			box-sizing: border-box;
+
+			font-family: 'Open Sans';
+
+			outline: 0;
+		}
+
+		html, body, :root {
+			font-size: 62.5%;
+
+			height: 100%;
+
+			background-color: #343333;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 2.5rem;
+			color: white;
+		}
+
+		form {
+			position: absolute;
+			transform: translate(-50%,-50%);
+			top: 50%;
+			left: 50%;
+		}
+
+		input {
+			display: block;
+
+			max-width: 50rem;
+			height: 4rem;
+
+			border-radius: 2rem;
+			padding: 1.5rem;
+			border: 0;
+		}
+
+		button {
+			width: 10rem;
+			height: 4rem;
+
+			position: relative;
+			transform: translateX(-50%);
+			left: 50%;
+
+			margin-top: 1rem;
+			border-radius: 2rem;
+			border: 0;
+
+			background-color: #ddd;
+
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: #fff;
+		}
+
+		p {
+			position: absolute;
+			transform: translate(-50%,-50%);
+			top: 70%;
+			left: 50%;
+
+			font-size: 1.6rem;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<h2>Endereço por CEP</h2>
+
+	<form>
+		<input placeholder="Digite seu CEP..." type="text">
+		<button type="submit">Enviar</button>
+	</form>
+
+	<p></p>
+
+	<script src="js/functions.js"></script>
+</body>
+</html>
